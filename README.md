@@ -11,13 +11,15 @@ Across the top SOL-USDC pool on Orca Whirlpools, Raydium CLMM, and Meteora DLMM:
 - **35,011 positions** analyzed
 - **$41.5M total TVL**
 - **$16.7M idle (40.3%)** by USD
-- **23,944 positions out-of-range (68.4%)** by count
+- **23,944 positions out-of-range (68.4%)** by position count
 
-| Protocol | Pool | Positions | TVL | Active TVL | Idle TVL | Idle % (USD) | Idle % (count) |
+| Protocol | Pool | Positions | TVL | Active TVL | Idle TVL | Idle % (USD) | Idle % (# positions) |
 |---|---|---:|---:|---:|---:|---:|---:|
 | Orca Whirlpools | `Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE` | 22,724 | $29.9M | $21.0M | $8.8M | 29.6% | 61.8% |
 | Raydium CLMM | `3ucNos4NbumPLZNWztqGHNFFgkHeRMBQAVemeeomsUxv` | 8,030 | $6.1M | $3.7M | $2.3M | 38.6% | 84.5% |
 | Meteora DLMM | `BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y` | 4,257 | $5.6M | $0.04M | $5.5M | **99.3%** | 73.2% |
+
+> _Idle % (USD) = share of TVL out-of-range. Idle % (positions) = share of positions out-of-range (i.e. number of LP positions, not wallets)._
 
 The Meteora number is not a bug. DLMM only pays fees on the **single active bin** at any given time, so any liquidity placed even one bin away from the active price earns nothing until the price moves back. CLMMs (Orca, Raydium) earn fees across the full position range, so being "active" is a wider band.
 

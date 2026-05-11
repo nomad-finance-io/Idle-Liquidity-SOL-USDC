@@ -18,6 +18,7 @@ Across the top SOL-USDC pool on Orca Whirlpools, Raydium CLMM, and Meteora DLMM:
 | Orca Whirlpools | `Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE` | 22,724 | $29.9M | $21.0M | $8.8M | 29.6% | 61.8% |
 | Raydium CLMM | `3ucNos4NbumPLZNWztqGHNFFgkHeRMBQAVemeeomsUxv` | 8,030 | $6.1M | $3.7M | $2.3M | 38.6% | 84.5% |
 | Meteora DLMM | `BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y` | 4,257 | $5.6M | $0.04M | $5.5M | **99.3%** | 73.2% |
+| **Total** | — | **35,011** | **$41.5M** | **$24.8M** | **$16.7M** | **40.3%** | **68.4%** |
 
 > _Idle % (USD) = share of TVL out-of-range. Idle % (positions) = share of positions out-of-range (i.e. number of LP positions, not wallets)._
 
